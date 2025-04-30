@@ -49,11 +49,9 @@ export default function TodoList() {
         );
     }, []);
 
-
     const initialValues: MyFormValues = {
         title: '', description: ""
     };
-
 
     return (
         <>
